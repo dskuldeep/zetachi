@@ -18,6 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
+      <body className={cn(
+        'min-h-screen font-sans antialiased grainy',
+        inter.className
+      )}>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-F75ST27R22"/>
     <script dangerouslySetInnerHTML={{
       __html: `
@@ -27,10 +31,6 @@ export default function RootLayout({
 
       gtag('config', 'G-F75ST27R22');`,}}
     />
-      <body className={cn(
-        'min-h-screen font-sans antialiased grainy',
-        inter.className
-      )}>
         <Navbar/>
         {children}
       </body>
