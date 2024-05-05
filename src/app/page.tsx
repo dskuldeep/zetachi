@@ -24,7 +24,7 @@ export default function Home() {
       <Link className={buttonVariants({
         size: "lg",
         className: "mt-5"
-      })} href='/waitlist' target="_blank">
+      })} href='https://tracking.getzetachi.com/zetachi-wlt' target="_blank">
       Join the Waitlist <ArrowRight className="ml-2 h-5 w-5" />
       </Link>
       </MaxWidthWrapper>
