@@ -21,13 +21,13 @@ const Navbar = () => {
                             variant: "ghost",
                             size: "sm"
                         })}> Pricing </Link>
-                        <LoginLink className={buttonVariants({
+                        <LoginLink href="/waitlist" className={buttonVariants({
                             variant: "ghost",
                             size: "sm"})}>
                                 Sign In
                         </LoginLink>
 
-                        <RegisterLink className={buttonVariants({
+                        <RegisterLink href="/waitlist" className={buttonVariants({
                             size: "sm"})}>
                                 Get Started <ArrowRight className="ml-1.5 h-5 w-5"></ArrowRight>
                         </RegisterLink>
